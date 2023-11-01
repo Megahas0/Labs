@@ -6,8 +6,6 @@ int main()
     int n, i, sum = 0;
     printf("Enter the value of n: ");
     scanf("%d", &n);
-
-    // Using for loop
     printf("Using for loop:\n");
     sum = 0;
     for (i = 1; i <= 2 * n; i += 2) {
@@ -15,8 +13,6 @@ int main()
         sum += i;
     }
     printf("\nSum of first %d odd natural numbers: %d\n", n, sum);
-
-    // Using while loop
     printf("Using while loop:\n");
     i = 1;
     sum = 0;
@@ -26,8 +22,6 @@ int main()
         i += 2;
     }
     printf("\nSum of first %d odd natural numbers: %d\n", n, sum);
-
-    // Using do-while loop
     printf("Using do-while loop:\n");
     i = 1;
     sum = 0;
